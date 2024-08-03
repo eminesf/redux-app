@@ -1,4 +1,4 @@
-import { ListItems } from "@/components/listItems";
+import { ListItems } from "@/components/ListItems";
 import { fetchProducts } from "@/redux/slices/productSlice";
 import { productsSliceSelector } from "@/redux/slices/productsSlice.selectors";
 import { useAppDispatch, useAppSelector } from "@/redux/store";
