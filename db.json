@@ -3,52 +3,62 @@
     {
       "id": "1",
       "name": "Fone de Ouvido Bluetooth",
-      "photo": "https://placehold.co/250x250/red/white"
+      "photo": "https://placehold.co/250x250/red/white",
+      "description": "Fone de ouvido Bluetooth com som de alta qualidade e bateria de longa duração."
     },
     {
       "id": "2",
       "name": "Relógio Inteligente",
-      "photo": "https://placehold.co/250x250/orange/white"
+      "photo": "https://placehold.co/250x250/orange/white",
+      "description": "Relógio inteligente com monitoramento de saúde, notificações e GPS."
     },
     {
       "id": "3",
       "name": "Cadeira Ergonomica",
-      "photo": "https://placehold.co/250x250/green/white"
+      "photo": "https://placehold.co/250x250/green/white",
+      "description": "Cadeira ergonômica ajustável, ideal para longas horas de trabalho ou estudo."
     },
     {
       "id": "4",
       "name": "Câmera de Segurança Wi-Fi",
-      "photo": "https://placehold.co/250x250/blue/white"
+      "photo": "https://placehold.co/250x250/blue/white",
+      "description": "Câmera de segurança Wi-Fi com visão noturna e detecção de movimento."
     },
     {
       "id": "5",
       "name": "Aspirador de Pó Robô",
-      "photo": "https://placehold.co/250x250/ivory/black"
+      "photo": "https://placehold.co/250x250/ivory/black",
+      "description": "Aspirador de pó robô com programação automática e retorno à base de carregamento."
     },
     {
       "id": "6",
       "name": "Notebook Gamer",
-      "photo": "https://placehold.co/250x250/yellow/black"
+      "photo": "https://placehold.co/250x250/yellow/black",
+      "description": "Notebook gamer de alta performance com placa de vídeo dedicada e tela de 144Hz."
     },
     {
       "id": "7",
       "name": "Tênis de Corrida",
-      "photo": "https://placehold.co/250x250/black/white"
+      "photo": "https://placehold.co/250x250/black/white",
+      "description": "Tênis de corrida leve e confortável, com excelente amortecimento."
     },
     {
       "id": "8",
       "name": "Mochila Anti-furto",
-      "photo": "https://placehold.co/250x250/purple/white"
+      "photo": "https://placehold.co/250x250/purple/white",
+      "description": "Mochila anti-furto com vários compartimentos e proteção RFID."
     },
     {
       "id": "9",
       "name": "Cafeteira Expresso",
-      "photo": "https://placehold.co/250x250/pink/white"
+      "photo": "https://placehold.co/250x250/pink/white",
+      "description": "Cafeteira expresso com sistema de cápsulas e função de vaporizador."
     },
     {
       "id": "10",
       "name": "Smartphone com 5G",
-      "photo": "https://placehold.co/250x250/teal/white"
+      "photo": "https://placehold.co/250x250/teal/white",
+      "description": "Smartphone com conectividade 5G, câmera de alta resolução e grande autonomia de bateria."
     }
   ]
 }
