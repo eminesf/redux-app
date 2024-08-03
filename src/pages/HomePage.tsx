@@ -15,7 +15,7 @@ export const HomePage: React.FC = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="p-8">
       <ListItems products={products} />
     </div>
   );
