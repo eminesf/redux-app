@@ -1,9 +1,22 @@
-import { Button } from "@/components/ui/button";
+import { ListItems } from "@/components/listItems";
+import { fetchProducts } from "@/redux/slices/productSlice";
+import { productsSliceSelector } from "@/redux/slices/productsSlice.selectors";
+import { useAppDispatch, useAppSelector } from "@/redux/store";
+import { useEffect } from "react";
 
 export const HomePage: React.FC = () => {
+  const dispatch = useAppDispatch();
+  const { products } = useAppSelector(productsSliceSelector);
+
+  useEffect(() => {
+    const abortController = new AbortController();
+    dispatch(fetchProducts(abortController.signal));
+    return () => abortController.abort();
+  }, [dispatch]);
+
   return (
     <div>
-      <Button>Botão Home Page</Button>
+      <ListItems products={products} />
     </div>
   );
 };
