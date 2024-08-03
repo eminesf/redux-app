@@ -1,12 +1,11 @@
+import { useRoutes } from "react-router-dom";
 import "./App.css";
-import { Button } from "./components/ui/button";
 
-function App() {
-  return (
-    <div>
-      <Button>Button</Button>
-    </div>
-  );
-}
+import routes from "./routes/public.routes";
+
+const App: React.FC = () => {
+  const routing = useRoutes(routes);
+  return <>{routing}</>;
+};
 
 export default App;
