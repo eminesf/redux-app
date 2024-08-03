@@ -1,6 +1,9 @@
 export interface Products {
   id: string;
-  title: string;
-  author: string;
+  name: string;
   photo: string;
+}
+
+export interface ProductsState {
+  products: Array<Products>;
 }

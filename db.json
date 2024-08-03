@@ -2,62 +2,52 @@
   "products": [
     {
       "id": "1",
-      "title": "JavaScript: The Good Parts",
-      "author": "Douglas Crockford",
+      "name": "Fone de Ouvido Bluetooth",
       "photo": "https://placehold.co/250x250/red/white"
     },
     {
       "id": "2",
-      "title": "You Don't Know JS: Scope & Closures",
-      "author": "Kyle Simpson",
+      "name": "Relógio Inteligente",
       "photo": "https://placehold.co/250x250/orange/white"
     },
     {
       "id": "3",
-      "title": "Eloquent JavaScript",
-      "author": "Marijn Haverbeke",
+      "name": "Cadeira Ergonomica",
       "photo": "https://placehold.co/250x250/green/white"
     },
     {
       "id": "4",
-      "title": "Learning React",
-      "author": "Alex Banks & Eve Porcello",
+      "name": "Câmera de Segurança Wi-Fi",
       "photo": "https://placehold.co/250x250/blue/white"
     },
     {
       "id": "5",
-      "title": "React Up & Running",
-      "author": "Stoyan Stefanov",
+      "name": "Aspirador de Pó Robô",
       "photo": "https://placehold.co/250x250/ivory/black"
     },
     {
       "id": "6",
-      "title": "Redux in Action",
-      "author": "Marc Garreau",
+      "name": "Notebook Gamer",
       "photo": "https://placehold.co/250x250/yellow/black"
     },
     {
       "id": "7",
-      "title": "Pro React 16",
-      "author": "Adam Freeman",
+      "name": "Tênis de Corrida",
       "photo": "https://placehold.co/250x250/black/white"
     },
     {
       "id": "8",
-      "title": "JavaScript: The Definitive Guide",
-      "author": "David Flanagan",
+      "name": "Mochila Anti-furto",
       "photo": "https://placehold.co/250x250/purple/white"
     },
     {
       "id": "9",
-      "title": "React and React Native",
-      "author": "Adam Boduch",
+      "name": "Cafeteira Expresso",
       "photo": "https://placehold.co/250x250/pink/white"
     },
     {
       "id": "10",
-      "title": "Mastering React Test-Driven Development",
-      "author": "Daniel Irvine",
+      "name": "Smartphone com 5G",
       "photo": "https://placehold.co/250x250/teal/white"
     }
   ]
