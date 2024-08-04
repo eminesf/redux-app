@@ -35,13 +35,18 @@ export const ProductsSlice = createSlice({
   reducers: {
     addProducts: (
       state,
-      action: PayloadAction<{ name: string; description: string }>
+      action: PayloadAction<{
+        name: string;
+        description: string;
+        value: number;
+      }>
     ) => {
       state.products.push({
         id: uuidv4(),
         name: action.payload.name,
         description: action.payload.description,
         photo: "https://placehold.co/250x250/teal/white",
+        value: action.payload.value,
       });
     },
   },

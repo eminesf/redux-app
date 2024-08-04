@@ -3,6 +3,7 @@ export interface Products {
   name: string;
   description: string;
   photo: string;
+  value: number;
 }
 
 export interface ProductsState {
