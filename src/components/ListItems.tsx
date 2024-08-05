@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { useAppDispatch } from "@/redux/store";
-import { addProductAtCartOptimistic } from "@/redux/slices/productAtCartSlice";
+import { addProductAtCartOptimistic } from "@/redux/slices/productsAtCartSlice";
 
 interface ListItemsProps {
   products: Products[];

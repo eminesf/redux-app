@@ -1,5 +1,5 @@
 import { ListItems } from "@/components/ListItems";
-import { fetchProducts } from "@/redux/slices/productSlice";
+import { fetchProducts } from "@/redux/slices/productsSlice";
 import { productsSliceSelector } from "@/redux/slices/productsSlice.selectors";
 import { useAppDispatch, useAppSelector } from "@/redux/store";
 import { useEffect } from "react";

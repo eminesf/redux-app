@@ -15,7 +15,7 @@ import { Card, CardHeader, CardTitle } from "./ui/card";
 import {
   deleteProductAtCartOptimistic,
   fetchProductsAtCart,
-} from "@/redux/slices/productAtCartSlice";
+} from "@/redux/slices/productsAtCartSlice";
 import { productsAtCartSliceSelector } from "@/redux/slices/productsAtCartSlice.selectors";
 
 export const SideSheet: React.FC = () => {
