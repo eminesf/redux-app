@@ -16,12 +16,11 @@ import {
   deleteProductAtCartOptimistic,
   fetchProductsAtCart,
 } from "@/redux/slices/productAtCartSlice";
+import { productsAtCartSliceSelector } from "@/redux/slices/productsAtCartSlice.selectors";
 
 export const SideSheet: React.FC = () => {
   const dispatch = useAppDispatch();
-  const productsAtCart = useAppSelector(
-    (state) => state.productsAtCart.productsAtCart
-  );
+  const { productsAtCart } = useAppSelector(productsAtCartSliceSelector);
 
   useEffect(() => {
     const abortController = new AbortController();
