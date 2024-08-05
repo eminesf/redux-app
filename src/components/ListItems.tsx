@@ -9,12 +9,16 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { useAppDispatch } from "@/redux/store";
+import { addProductAtCartOptimistic } from "@/redux/slices/productAtCartSlice";
 
 interface ListItemsProps {
   products: Products[];
 }
 
 export const ListItems: React.FC<ListItemsProps> = ({ products }) => {
+  const dispatch = useAppDispatch();
+
   const productItems = useMemo(() => {
     return products.map((product) => (
       <div key={product.id}>
@@ -28,7 +32,13 @@ export const ListItems: React.FC<ListItemsProps> = ({ products }) => {
             <p className="font-semibold pt-2">R$: {product.value}</p>
           </CardContent>
           <CardFooter>
-            <Button>Add to cart</Button>
+            <Button
+              onClick={async () =>
+                await dispatch(addProductAtCartOptimistic(product))
+              }
+            >
+              Add to cart
+            </Button>
           </CardFooter>
         </Card>
       </div>

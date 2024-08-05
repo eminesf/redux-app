@@ -2,14 +2,13 @@ import { v4 as uuidv4 } from "uuid";
 import { Products, ProductsState } from "@/types/products";
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
+import { baseUrl } from "@/utils/utils";
 
 const initialState: ProductsState = {
   products: [],
   loading: true,
   error: null,
 };
-
-const baseUrl = "http://localhost:3001";
 
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
